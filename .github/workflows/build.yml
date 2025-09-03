@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   x86_64-pc-linux-gnu:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - run: sudo apt-get update
       - run: sudo apt-get install -y g++ git cmake nodejs pkg-config libfmt-dev liblzo2-dev libzstd-dev zlib1g-dev
